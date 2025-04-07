@@ -34,4 +34,4 @@ async def freeup(ctx, name: str):
         await ctx.send(f"User {name} is already in the active list.")
 
 # Run the bot with your token
-bot.run((os.getenv("API_TOKEN")))
+bot.run((os.getenv("API_TOKEN"))) 
